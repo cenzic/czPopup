@@ -1,0 +1,87 @@
+/*-----------Content----------------*/
+#PopupOverLay 
+{
+    display: none;    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: black;
+    opacity: 0.5;        
+    filter: alpha(opacity=50);
+    
+}
+.PopupWindow 
+{
+    top: 200px;
+    left: 500px;    
+    display: none;
+    position: fixed;    
+    min-width: 300px;
+    max-width: 1024px;
+    /*overflow: hidden;*/
+    background: white;
+    border: 8px solid #AFBED3;
+    border-radius: 5px;            
+}
+.PopupTitle {    
+    background-color: #C7D3E7;
+    font: bold small Verdana,Arial,sans-serif;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-top: 8px;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+.DefaultClose 
+{
+    float: right;
+    cursor: pointer;
+    font: bold 10pt arial;
+}
+.PopupContent {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    /*overflow: auto;
+    max-height: 500px;*/
+}
+.PopupOperators {
+    width: 100%;
+    text-align: center;    
+}
+
+.PopupClose {
+    
+}
+
+.popup-header
+{
+	width:100%;
+	text-align:center;
+	font-size: 24px ;
+	font-weight: bold;
+	line-height:40px;
+	overflow: hidden;
+    color: white;
+    background: red;
+}
+
+.operation_buttons {
+    padding: 5px 0px;
+    width: 100%;    
+    text-align: center;
+}
+
+.operation_buttons input[type=button], .operation_buttons input[type=submit] {
+    background-color: #5973A8;
+    border: 1px solid #93AACA;
+    color: #FFFFFF;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 3px 7px;
+    cursor: pointer;
+    margin: 0 3px;
+}
